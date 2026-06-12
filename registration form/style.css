@@ -1,0 +1,38 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgreen;
+}
